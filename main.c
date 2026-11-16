@@ -3,11 +3,11 @@ int main(void)
 {
     int a;
     scanf("%d",&a);
-    if((a >= 0 && a < 10)||(a >= 12 && a < 15))
+    if ((a >= 0 && a < 10)||(a >= 12 && a < 15))
     {
-        printf("OK");
+        printf("OK\n");
     }else {
-        printf("NG");
+        printf("NG\n");
     }
     return 0;
 }
